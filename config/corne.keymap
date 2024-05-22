@@ -109,7 +109,7 @@
 
             bindings = <
                         &trans &trans    &trans    &trans    &trans    &trans   &trans        &trans     &trans     &trans    &trans &trans
-                        &trans       &trans    &trans    &trans    &trans     &trans     &trans       &trans    &trans &trans   &trans   &trans
+                        &trans       &trans    &kp LEFT_ARROW    &kp DOWN_ARROW    &kp RIGHT_ARROW     &kp END     &kp MINUS       &kp LEFT_ARROW    &kp DOWN_ARROW &kp RIGHT_ARROW   &kp END   &trans
                         &trans     &trans    &trans    &trans    &trans   &trans        &trans      &trans    &trans    &trans   &trans   &trans
                         &kp LGUI                  &mo ADJUST          &trans    &trans    &trans       &trans
             >;
