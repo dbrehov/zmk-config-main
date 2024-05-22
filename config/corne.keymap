@@ -108,9 +108,9 @@
 //                                   '--------+----------+----------'       '---------+----------+---------'
 
             bindings = <
-                        &trans &kp KP_SLASH    &kp KP_N7    &kp KP_N8    &kp KP_N9    &lt 3 PLUS   &none        &kp HOME     &kp C_PP     &kp PG_UP    &kp C_VOL_UP &mt RIGHT_GUI CAPS
-                        &trans       &kp KP_MULTIPLY &kp KP_N4    &kp KP_N5    &kp KP_N6    &kp KP_MINUS &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT    &kp C_VOL_DN &mt RCTRL K_MENU
-                        &trans     &kp KP_NUMBER_0 &kp KP_N1    &kp KP_N2    &kp KP_N3    &kp KP_DOT   &none        &kp END      &kp PSCRN    &kp PG_DN    &kp C_MUTE   &kp RALT
+                        &kp LG(LS(N4))  &trans     &kp PAGE_UP        &kp UP_ARROW      &kp PAGE_DOWN       &kp HOME                &kp CARET            &kp PAGE_UP             &kp UP_ARROW       &kp PAGE_DOWN      &kp HOME     &kp LG(LS(N4))
+   &trans          &trans     &kp LEFT_ARROW     &kp DOWN_ARROW    &kp RIGHT_ARROW     &kp END                 &kp MINUS            &kp LEFT_ARROW          &kp DOWN_ARROW     &kp RIGHT_ARROW    &kp END      &trans
+   &out OUT_TOG    &trans     &trans             &trans            &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)     &kp LC(LEFT_ARROW)   &kp LC(RIGHT_ARROW)
                         &kp LGUI                  &mo ADJUST          &trans    &trans    &trans       &trans
             >;
         };
